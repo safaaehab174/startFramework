@@ -2,7 +2,7 @@
   "name": "app1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://safaaehab174.github.io/start_FrameWork",
+  "homepage": "https://safaaehab174.github.io/startFramework",
   "type": "module",
   "scripts": {
     "dev": "vite",
