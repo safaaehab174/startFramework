@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a.active:not(#logo){
+    background-color: #1abc9c;
+    
+}
+
+.Home {
+    background-color: #1abc9c;
+}
+
+.icon::after{
+    content: "";
+    width: 100px;
+    height: 0;
+    padding-block: 2px;
+    background-color: white;
+}
+
+.icon::before{
+    content: "";
+    width: 100px;
+    height: 0;
+    padding-block: 2px;
+    background-color: white;
+}
+
+.blur{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.hove:hover .blur{
+   opacity: 1;
+}
+
+.h-69{
+    height: 95%;
+}
+.w-69{
+    width: 95%;
+}
+
+.Port{
+    background-color: #1abc9ce6;
+}
+
